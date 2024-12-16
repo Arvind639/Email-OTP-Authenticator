@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <div class="container2">
@@ -15,24 +17,32 @@
                     <li> <a href="http://127.0.0.1:5500/index.html">Home </a></li>
                     <li> <a href="http://127.0.0.1:5500/About.html">About</a></li>
                     <li> <a href="">Contact</a></li>
-                    <li> <button> <a href="http://127.0.0.1:5500/NewUser.html">Sign In</a></button></li>
-                    <li> <button> <a href="http://127.0.0.1:5500/AdmidLogin.html">Sign Up</a></button></li>
+                    <li> <button> <a style="color: orange; font-size: large;" href="http://127.0.0.1:5500/NewUser.html">Sign In</a></button></li>
+                    <li> <button> <a style="color: orange; font-size: large;" href="http://127.0.0.1:5500/AdminLogin.html">Sign Up</a></button></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <form action="">
-            <h2>Admin Login Form</h2>
-            <br>
-            <input type="email" placeholder="Please enter your enail id" required="">
-            <br><br>
-            <input type="OTP" placeholder="Please enter your OTP" required="">
-            <br><br>
-            <button class="btn" >Send OTP</button>
-            <button class="btn">Verify</button>
-            
-        </form>
+    <div class="classContainer">
+        <div><img loading="lazy" src="https://lms.smartbrains.org.in/assets/frontend/default-new/image/cloud-security.gif"></div>
+        <div class="container">
+            <form action="">
+                <h1>Admin Login Form</h1>
+                <br>
+                <br>
+                <input type="email" style="width: 495px; height: 35px;" placeholder="Please enter your enail id"
+                    required="">
+                <br><br>
+                <input type="OTP" style="width: 495px; height: 35px;" placeholder="Please enter your OTP" required="">
+                <br><br>
+                <button class="btn">Send OTP</button>
+                <br>
+                <br>
+                <button class="btn">Verify</button>
+
+            </form>
+        </div>
     </div>
 </body>
+
 </html>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav style=" margin-top: 0;">
         <div class="container2">
             <div class="main" style="padding-left: 50px; width: 60%;">Email OTP Authenticator</div>
             <div class="main" style="padding-right: 50px; width: 40%;">
@@ -15,24 +15,33 @@
                     <li> <a href="http://127.0.0.1:5500/index.html">Home </a></li>
                     <li> <a href="http://127.0.0.1:5500/About.html">About</a></li>
                     <li> <a href="">Contact</a></li>
-                    <li> <button> <a href="http://127.0.0.1:5500/NewUser.html">Sign In</a></button></li>
-                    <li> <button> <a href="http://127.0.0.1:5500/AdmidLogin.html">Sign Up</a></button></li>
+                    <li> <button> <a style="color: orange; font-size: large;" href="http://127.0.0.1:5500/NewUser.html">Sign In</a></button></li>
+                    <li> <button> <a style="color: orange; font-size: large;" href="http://127.0.0.1:5500/AdminLogin.html">Sign Up</a></button></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <form action="">
-            <h2>Login Form</h2>
-            <br>
-            <input type="email" placeholder="Please enter your enail id" required="">
-            <br><br>
-            <input type="password" placeholder="Please enter your password" required="">
-            <br><br>
-            <button class="btn" ><a href="http://127.0.0.1:5500/NewUser.html">New User</a></button>
-            <button class="btn"><a href="http://127.0.0.1:5500/AdmidLogin.html">Admin Login</a></button>
-            
-        </form>
+    <div class="classContainer">
+         <div><img loading="lazy" src="https://lms.smartbrains.org.in/assets/frontend/default-new/image/login-security.gif"></div>
+        <div class="container">
+            <form action="">
+                <h1>Login Form</h1>
+                <br>
+                The Email OTP Verification Program offers two options for authentication. Where first is New User and Second For Admin Login
+                <br>
+                <br><br>
+                <input type="email" style="width: 500px; height: 30px;" placeholder="Please enter your email id" required="">
+                <br><br>
+                <input type="password" style="width: 500px; height: 35px;" placeholder="Please enter your password" required="">
+                <br><br><br>
+                <button class="btn" ><a class="btn1" href="http://127.0.0.1:5500/NewUser.html">New User</a></button>
+                <br><br>
+                <button class="btn"><a class="btn1" href="http://127.0.0.1:5500/AdminLogin.html">Admin Login</a></button>
+                
+            </form>
+        </div>
     </div>
+    
+    
 </body>
 </html>

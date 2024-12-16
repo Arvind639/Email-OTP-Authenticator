@@ -1,22 +1,37 @@
 
 .container{
-    max-width: 300px;
+    max-width: auto;
     margin: 100px auto;
     padding: 20px;
-    background-color: #bbbfc4 ;
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
+    padding-left: 100px;
 }
 
 .btn{
     border-radius: 5px;
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
+    background-color: rgb(99, 99, 241);
+    width: 500px;
+    height: 40px;
+    font-size: large;
+}
+.btn1{
+    color: white;
 }
 
 .btn:last-child{
-    margin-left: 20px;
     cursor: pointer;
 }
+
+.classContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    margin-left: 80px;
+}
+
 
 
 .container2{
